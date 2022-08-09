@@ -202,3 +202,27 @@ const calc = new Calculator();
 //invoca al metodo de la instancia y le pasa
 //los dos argumentos
 console.log(calc.sum(2, 2));
+
+
+
+// Importación y exportación de modulos
+
+import {Hello} from "./module";
+
+console.log(Hello());
+
+
+// generadores - geneators
+
+function* helloWorld(){
+    if(true){
+        yield 'hello, ';
+    }
+    if(true){
+        yield 'world!';
+    }
+}
+
+const generetor = helloWorld();
+console.log(generetor.next().value);
+console.log(generetor.next().value);
