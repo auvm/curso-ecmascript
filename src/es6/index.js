@@ -36,7 +36,7 @@ console.log(epicPhrase2);
 
 
 
-// Agregar párrafos sin modificadores
+// Agregar párrafos multilinea sin modificadores
 // forma tradicional
 let lorem = "Lorem ipsum dolor sit amet.\n"
 + "quiero agregar este párrafo.";
@@ -135,6 +135,9 @@ const names = [
 const listOfNames = names.map(function(item){
     console.log(item.name);
 });
+
+
+
 
 //nuevas arrow function
                 //función item de parámetro 

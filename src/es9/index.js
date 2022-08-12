@@ -1,4 +1,4 @@
-// creada en junio 2019
+// creada en junio 2018
 
 const obj = {
     name: "auvm",
@@ -49,7 +49,7 @@ console.log(objFull);
 const helloWorld = () => {
     return new Promise((resolve, reject) => {
         (true)
-        ? setTimeout( ()=> resolve("Hello, World"), 3000)  
+        ? resolve("Hello, World") 
         : reject(new Error("Test Error"));
     });
 };
